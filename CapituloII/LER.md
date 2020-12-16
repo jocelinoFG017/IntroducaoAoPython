@@ -1,3 +1,4 @@
-﻿# IntroducaoAoPython
+﻿# Introducao ao Python
 
-EXERCICIOS CAPITULO X
+### CapituloII - Preparando o ambiente
+O autor ensina a preparar o ambiente básico do python em uma máquina.
