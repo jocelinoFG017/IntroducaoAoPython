@@ -10,4 +10,6 @@ Editora: Novatec
 
 Ano: 2019
 
-Foto:![](foto/livro.jpg)
+Foto: 
+
+<img src="foto/livro.jpg" width="150" height="200">
