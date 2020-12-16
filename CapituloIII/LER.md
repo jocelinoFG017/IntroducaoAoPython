@@ -1,0 +1,3 @@
+﻿# IntroducaoAoPython
+
+EXERCICIOS CAPITULO X
