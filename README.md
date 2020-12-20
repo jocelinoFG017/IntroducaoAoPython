@@ -1,10 +1,10 @@
-﻿# IntroducaoAoPython
+﻿# Introdução ao Python
  
  Este repositório contém os exercícios resolvidos do livro(descrição abaixo) feitos por Jocelino F. GARCIA.  
  Lembrando que os exercícios podem ser feitos de vários jeitos e formas. Eu apenas estou compartilhando com
   a comunidade a maneira que encontrei para resolvê-los.
  
-  Agora se tu quer as respostas feitas pelo própio autor do livro, saiba que elas estão disponíveis no site do livro
+  Agora se tu quer as respostas feitas pelo própio autor do livro, saiba que elas estão disponíveis no site do livro. Disponível no link abaixo:
  
  site: https://python.nilo.pro.br
 
