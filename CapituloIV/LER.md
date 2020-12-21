@@ -1,3 +1,4 @@
-﻿# IntroducaoAoPython
+﻿# Introducao ao Python
 
-EXERCICIOS CAPITULO X
+### CapituloIV - Condições
+O autor ensina a utilização do laço 'if', 'else' e 'elif'

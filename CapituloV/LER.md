@@ -1,3 +1,4 @@
-﻿# IntroducaoAoPython
+﻿# Introducao ao Python
 
-EXERCICIOS CAPITULO X
+### CapituloV - Repetições
+O autor ensina a utilização do laço de repetição 'while'
