@@ -10,4 +10,4 @@
 
 - Foto: 
 
-<img src="foto/Geek.jpg" width="150" height="200"> 
+<img src="../../foto/Geek.jpg" width="150" height="200"> 

@@ -134,16 +134,52 @@ concurso. Sendo que da quantia total.
 o número de dias trabalhados pelo encanador e imprima a quantia líquida que
 deverá ser paga, sabendo-se que são descontados 8% para o imposto de renda.
 
-.41. 
-.42.
-.43.
-.44.
-.45.
-.46.
-.47.
-.48.
-.49.
-.50.
-.51.
-.52.
-.53.
+.41. Faça um programa que leia o valor da hora de trabalho(em reais) e o número de horas
+trabalhadas no mês. Imprima o valor a ser pago ao funcionário, adicionando 10% sobre
+o valor calculado.
+
+.42. Receba o salário-base de um funcionário. Calcule e imprima o salário a receber,
+sabendo-se que esse funcionário tem uma gratificação de 5% sobre o salario-base. além
+disso, ele paga 7% de imposto sobre o salário-base.
+
+.43. Escreva um programa de ajuda para vendedores. A partir de um valor total lido, mostre:
+ - o total a pagar com desconto de 10 %.
+ - o valor de cada parcela, no parcelamento de 3X sem juros.
+ - a comissão do vendedor, no caso da venda ser a vista(5% sobre o valor com desconto).
+ - a comissão do vendedor, no caso da venda ser parcelada(5% sobre o valor total).
+
+.44. Receba a altura do degrau de uma escada e altura que o usuário deseja alcançar subindo a
+escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir seu objetivo.
+
+.45. Faça um programa para converter uma letra maiúscula em letra minúscula.
+Use a tabela ASCII para resolver o problema.
+
+.46. Faça um programa que leia um número inteiro positivo de três digitos(de 100 a 999).
+gere outro número formado pelos digitos invertidos do numero lido. Exemplo:
+
+ - NumeroLido = 123
+
+ - NumeroGerado = 321
+
+.47. Leia um número inteiro de 4 dígitos(de 1000 a 9999) e imprima um dígito por linha
+
+.48. Leia um valor inteiro em segundos, e imprima-o em horas, minutos e segundos.
+
+.49. Faça um programa que leia o horário(hora,minuto e segundo) de inicio e a duração, em
+segundos, de uma experiência biológica. O programa deve resultar com o novo horário
+(hora,minutos e segundos) do término da mesma.
+
+.50. Implemente um programa que calcule o ano de nascimento de uma pessoa a
+partir de sua idade e do ano atual.
+
+.51. Escreva um programa que leia as coordenadas x e y de ponto R² e calcule
+sua distância da origem(0,0).
+
+.52. Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido
+proporcionalmente ao valor que cada um deu para realização da aposta. Faça um
+programa que leia quanto cada apostador investiu, o valor do prêmio, e imprima
+quanto cada um ganharia do prêmio com base no valor investido.
+
+.53. Faça um programa para ler as dimensões de um terreno(comprimento C e largura L),
+bem como o preço do metro de tela P. Imprima o custo para cercar este mesmo
+terreno com tela.

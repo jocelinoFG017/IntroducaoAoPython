@@ -16,4 +16,4 @@ Se você quiser as respostas feitas pelo própio autor do livro, saiba que elas 
 
 - Foto da Capa: 
 
-<img src="foto/livro.jpg" width="150" height="200">
+<img src="../../foto/livro.jpg" width="150" height="200">
