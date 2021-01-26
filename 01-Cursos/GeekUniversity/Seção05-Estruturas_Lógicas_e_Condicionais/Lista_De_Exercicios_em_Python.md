@@ -69,29 +69,151 @@ e assim por diante.
 
  Lembre-se a base MAIOR e a base menor devem ser números maiores que zero.
 
-.18.
-.19.
-.20.
-.21.
-.22.
-.23.
-.24.
-.25.
-.26.
-.27.
-.28.
-.29.
-.30.
-.31.
-.32.
-.33.
+.18. Faça um programa  que mostre ao usuário um menu com 4 opções de operações
+matemáticas(as básico, por exemplo). O usuário escolha uma das opções e o
+seu programa então pede dois valores numéricos e realiza a operação, mos-
+trando o resultado e saindo.
+
+.19. Faça um programa para verificar se um determinado número inteiro e divisível por 3 ou 5,
+mas não simultaneamente pelos dois.
+
+.20. Dados três valores, A,B,C, verificar se eles podem ser valores dos lados de um triângulo e,
+se forem, se é um triângulo escaleno, equilátero ou isósceles, considerando os seguintes conceitos
+
+ - O comprimento de cada lado de um triângulo é menor do que a soma dos outros dois lados.
+
+ - Chama-se equilátero o triângulo que tem três lados iguais.
+
+ - Denominam-se isósceles o triângulo que tem o comprimento de dois lados iguais.
+
+ - Recebe o nome de escaleno o triângulo que tem três lados diferentes.
+
+.21. Escreva o menu de opções abaixo. Leia a opção do usuário e execute a operação
+escolhida. Escreva uma mensagem de erro se a opção for inválida.
+
+Escolha a opção:
+1 - Soma de 2 números.
+2 - Diferença entre 2 números. (maior pelo menor).
+3 - Produto entre 2 números.
+4 - Divisão entre 2 números (o denominador não pode ser zero).
+opção =
+
+.22. Leia a idade e o tempo de serviço de um trabalhador e escreva se ele pode ou não
+se aposentar. As condições para a aposentadoria são:
+ - Ter pelo menos 65 anos.
+ - Ou ter trabalhado pelo menos 30 anos.
+ - Ou ter pelo menos 60 anos e trabalhado pelo menos 25 anos.
+
+.23. Determine se um determinado ano lido é bissexto. Sendo que um ano é bissexto se
+for divisível por 400 ou ser for divisível por 4 e não for possível por 100.
+por exemplo: 1988, 1992,1996.
+
+.24. Uma empresa vende o mesmo produto para quatro diferentes estados. Cada estado possui uma taxa
+diferente de imposto sobre o produto (MG 7%; SP 12%; RJ 15%; MS 8%). Faça um programa em que o
+usuário entre com o valor e o estado destino do produto e o programa retorne o preço final do
+produto acrescido do imposto do estado em que ele será vendido. Se o estado digitado não for
+válido, mostrar uma mensagem de erro.
+
+.25. Calcule as raízes da equação de 2º grau:
+Lembrando que:
+
+ - x =  (- b +- raiz(delta))
+
+ - delta = b²* (-4ac)
+E ax²+bx+c = 0 representa uma equação de 2º grau.
+
+A variável a tem que ser diferente de zero. Caso seja igual imprima a
+mensagem "Não é equação de segundo grau."
+
+ - Se delta < 0, não existe real. Imprima a mensagem "Não existe raiz"
+ - Se delta = 0, existe raiz real, Imprima a raiz e a mensagem "Raiz única"
+ - Se delta >= 0, Imprima duas raízes reais
+
+.26. leia a distância em Km e a quantidade de litros  de gasolina consumidos por um carro
+em um percurso,calcule o consumo de Km/l e escreva uma mensagem de acordo com a tabela abaixo:
+
+  - CONSUMO   | (KM/L) | MENSAGEM
+  - menor que | 8      | Venda o carro!
+  - entre     | 8 e 14 | Econômico!
+  - maior que | 12     | Super Econômico!
+
+.27. Escreva um programa que, dada a idade de um nadador, classifique-o em uma das seguintes categorias:
+
+ - CATEGORIA  | IDADE
+ - Infantil A | 5 a 7
+ - Infantil B | 8 a 10
+ - Juvenil A  | 11 a 13
+ - Juvenil B  | 14 a 18
+ - Sênior     | maiores de 18 anos
+
+.28. Faça um programa que leia três números inteiros positivos e efetue o cálculo de uma das
+seguintes médias de acordo com um valor númerico digitado pelo usuário.
+
+ - (a) Geométrica : raiz³(x * y * z)
+ - (b) Ponderada : (x + (2 * y) + (3 * z)) / 6
+ - (c) Harmônica : 1 / (( 1 / x) + (1 / y) + (1 / z))
+ - (d) Aritmética: (x + y + z)/3
+
+.29. Faça uma prova de matemática para crianças que estão aprendendo a somar múmeros inteiros
+menores do que 100. Escolha números aleatórios entre 1 e 100, e mostre na tela a pergunta:
+"Qual é a soma de a + b, onde a e b são números aleatórios" Peça a resposta. Faça cinco perguntas
+ao aluno, e mostre para ele as perguntas e as respostas corretas, além de quantas vezes o aluno acertou.
+
+.30.  Faça um programa que receba três números e mostre-os em ordem crescente.
+
+.31. Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a
+seguir, verifique e mostre qual a classificação dessa pessoa.
+
+ - ALTURA          |   PESO              PESO                PESO
+ - ALTURA          | ATÉ 60 | ENTRE 60 E 90 (INCLUSIVE) | ACIMA DE 90
+ - Menor que 1,20  | A      |            D              | G
+ - de 1,20 a 1,70  | B      |            E              | H
+ - Maior que 1,70  | C      |            F              | I
+
+.32. Escrever um programa que leia o código do produto escolhido do cardápio de uma lanchonete
+e a quantidade. O programa deve calcular o valor a ser pago por aquele lanche. Considere que a
+cada execução somente será calculado um pedido. O cardápio de lanchonete segue o padrão abaixo.
+
+ - ESPECIFICAÇÃO    | CÓDIGO | PREÇO
+ - Cachorro Quente  | 100    | 1.20
+ - Bauru Simples    | 101    | 1.30
+ - Bauru com Ovo    | 102    | 1.50
+ - Hamburguer       | 103    | 1.20
+ - Cheeseburguer    | 104    | 1.70
+ - Suco             | 105    | 2.20
+ - Refrigerante     | 106    | 1.00
+
+.33. Um novo produto vai sofrer aumento de acordo com a tabela abaixo . Leia  o preço antigo,
+calcule  e escreva  o preço novo, e escreva  uma mensagem  em função do preço novo(de acordo com
+a segunda tabela)
+
+ --- TABELA 01
+ - PREÇO ANTIGO        | PERCENTUAL DE AUMENTO
+ - Até R$50            |            5%
+ - Entre R$50 e R$100  |            10%
+ - Acima de R$100      |            15%
+
+ --- TABELA 02
+ - PREÇO NOVO                      |         MENSAGEM
+ - Até R$80                        |            barato
+ - Entre R$80 e R$120(inclusive)   |            Normal
+ - Entre R$120 e R$200(inclusive)  |            Caro
+ - Acima de R$200                  |            Muito Caro
+
 .34.
+
 .35.
+
 .36.
+
 .37.
+
 .38.
+
 .39.
+
 .40.
+
 .41.
 
 
