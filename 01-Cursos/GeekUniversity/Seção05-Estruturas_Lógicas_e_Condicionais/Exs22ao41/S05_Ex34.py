@@ -1,4 +1,3 @@
-
 """
 .34. Leia a nota e o número de faltas de um aluno, e escreve seu conceito. De acordo com a
 tabela abaixo, quando  o aluno  tem mais de 20 faltas ocorre a redução do conceito.
@@ -10,46 +9,31 @@ tabela abaixo, quando  o aluno  tem mais de 20 faltas ocorre a redução do conc
  - 4.0 a 4.9   |            D            |            E            |
  - 0.0 a 3.9   |            E            |            E            |
 """
+nota = float(input('Nota do aluno: '))
+num_faltas = int(input('Numeros de faltas do aluno: '))
 
-"""
-.35. Leia uma data e determine se ela é válida. Ou seja, verifique se o mês está entre 1 e 12,
-e se o dia existe naquele mês. Note que fevereiro tem 29 dias em anos bissextos, e 28 dias em
-anos não bissextos. 
-"""
-
-"""
-.36. 
-"""
-
-
-"""
-.37. 
-"""
-
-
-"""
-.38. 
-"""
-
-
-"""
-.39. 
-"""
-
-
-"""
-.40. 
-"""
-
-"""
-.41. Faça um algoritmo que calcule o IMC de uma pessoa e mostre sua classificação de acordo
-com a tabela abaixo.
-    IMC          | Classificação
-    -------------|-------------
-    < 18,5       | Abaixo do peso
-    18.6 - 24.9  | Saudável
-    25.0 - 29.9  | Peso em excesso
-    30.0 - 34.9  | Obesidade grau I
-    35.0 - 39.9  | Obesidade grau II (severa)
-    >= 40.0      | Obesidade grau III (mórbida)
-"""
+if (nota >= 0.0) and (nota <= 3.9):
+    if num_faltas > 20:
+        print('E')
+    else:
+        print('E')
+elif (nota >= 4.0) and (nota <= 4.9):
+    if num_faltas > 20:
+        print('E')
+    else:
+        print('D')
+elif (nota >= 5.0) and (nota <= 7.4):
+    if num_faltas > 20:
+        print('C')
+    else:
+        print('D')
+elif (nota >= 7.5) and (nota <= 8.9):
+    if num_faltas > 20:
+        print('C')
+    else:
+        print('B')
+elif (nota >= 9.0) and (nota <= 10.0):
+    if num_faltas > 20:
+        print('B')
+    else:
+        print('A')
