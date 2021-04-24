@@ -139,12 +139,12 @@ em um percurso,calcule o consumo de Km/l e escreva uma mensagem de acordo com a 
 
 .27. Escreva um programa que, dada a idade de um nadador, classifique-o em uma das seguintes categorias:
 
- - CATEGORIA  | IDADE
- - Infantil A | 5 a 7
- - Infantil B | 8 a 10
- - Juvenil A  | 11 a 13
- - Juvenil B  | 14 a 18
- - Sênior     | maiores de 18 anos
+    - CATEGORIA  | IDADE
+    - Infantil A | 5 a 7
+    - Infantil B | 8 a 10
+    - Juvenil A  | 11 a 13
+    - Juvenil B  | 14 a 18
+    - Sênior     | maiores de 18 anos
 
 .28. Faça um programa que leia três números inteiros positivos e efetue o cálculo de uma das
 seguintes médias de acordo com um valor númerico digitado pelo usuário.
@@ -164,67 +164,131 @@ ao aluno, e mostre para ele as perguntas e as respostas corretas, além de quant
 .31. Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a
 seguir, verifique e mostre qual a classificação dessa pessoa.
 
- - ALTURA          |   PESO              PESO                PESO
- - ALTURA          | ATÉ 60 | ENTRE 60 E 90 (INCLUSIVE) | ACIMA DE 90
- - Menor que 1,20  | A      |            D              | G
- - de 1,20 a 1,70  | B      |            E              | H
- - Maior que 1,70  | C      |            F              | I
+    - ALTURA          |   PESO              PESO                PESO
+    - ALTURA          | ATÉ 60 | ENTRE 60 E 90 (INCLUSIVE) | ACIMA DE 90
+    - Menor que 1,20  | A      |            D              | G
+    - de 1,20 a 1,70  | B      |            E              | H
+    - Maior que 1,70  | C      |            F              | I
 
 .32. Escrever um programa que leia o código do produto escolhido do cardápio de uma lanchonete
 e a quantidade. O programa deve calcular o valor a ser pago por aquele lanche. Considere que a
 cada execução somente será calculado um pedido. O cardápio de lanchonete segue o padrão abaixo.
 
- - ESPECIFICAÇÃO    | CÓDIGO | PREÇO
- - Cachorro Quente  | 100    | 1.20
- - Bauru Simples    | 101    | 1.30
- - Bauru com Ovo    | 102    | 1.50
- - Hamburguer       | 103    | 1.20
- - Cheeseburguer    | 104    | 1.70
- - Suco             | 105    | 2.20
- - Refrigerante     | 106    | 1.00
+    - ESPECIFICAÇÃO    | CÓDIGO | PREÇO
+    - Cachorro Quente  | 100    | 1.20
+    - Bauru Simples    | 101    | 1.30
+    - Bauru com Ovo    | 102    | 1.50
+    - Hamburguer       | 103    | 1.20
+    - Cheeseburguer    | 104    | 1.70
+    - Suco             | 105    | 2.20
+    - Refrigerante     | 106    | 1.00
 
 .33. Um novo produto vai sofrer aumento de acordo com a tabela abaixo . Leia  o preço antigo,
 calcule  e escreva  o preço novo, e escreva  uma mensagem  em função do preço novo(de acordo com
 a segunda tabela)
 
- --- TABELA 01
- - PREÇO ANTIGO        | PERCENTUAL DE AUMENTO
- - Até R$50            |            5%
- - Entre R$50 e R$100  |            10%
- - Acima de R$100      |            15%
+    --- TABELA 01
+    - PREÇO ANTIGO        | PERCENTUAL DE AUMENTO
+    - Até R$50            |            5%
+    - Entre R$50 e R$100  |            10%
+    - Acima de R$100      |            15%
 
- --- TABELA 02
- - PREÇO NOVO                      |         MENSAGEM
- - Até R$80                        |            barato
- - Entre R$80 e R$120(inclusive)   |            Normal
- - Entre R$120 e R$200(inclusive)  |            Caro
- - Acima de R$200                  |            Muito Caro
+    --- TABELA 02
+    - PREÇO NOVO                      |         MENSAGEM
+    - Até R$80                        |            barato
+    - Entre R$80 e R$120(inclusive)   |            Normal
+    - Entre R$120 e R$200(inclusive)  |            Caro
+    - Acima de R$200                  |            Muito Caro
 
 .34. Leia a nota e o número de faltas de um aluno, e escreve seu conceito. De acordo com a
 tabela abaixo, quando  o aluno  tem mais de 20 faltas ocorre a redução do conceito.
 
- - NOTA        | CONCEITO(ATÉ 20 FALTAS) | CONCEITO(MAIS DE 20 FALTAS)
- - 9.0 a 10.0  |            A            |            B            |
- - 7.5 a 8.9   |            B            |            C            |
- - 5.0 a 7.4   |            C            |            D            |
- - 4.0 a 4.9   |            D            |            E            |
- - 0.0 a 3.9   |            E            |            E            |
+    - NOTA         | CONCEITO(ATÉ 20 FALTAS) | CONCEITO(MAIS DE 20 FALTAS)
+    - 9.0 a 10.0   |            A            |            B            |
+    - 7.5 a 8.9    |            B            |            C            |
+    - 5.0 a 7.4    |            C            |            D            |
+    - 4.0 a 4.9    |            D            |            E            |
+    - 0.0 a 3.9    |            E            |            E            |
 
 .35. Leia uma data e determine se ela é válida. Ou seja, verifique se o mês está entre 1 e 12,
 e se o dia existe naquele mês. Note que fevereiro tem 29 dias em anos bissextos, e 28 dias em
 anos não bissextos.
 
-.36.
+.36.Escreva um programa que, dado o valor de venda, imprima a comissão que deverá ser paga
+ao vendedor. Para calcular a comissão, considere a tabela abaixo:
 
-.37.
+                    Venda Mensal                                |         Comissão
+    Maior ou igual a R$ 100.000.00                              |   R$ 700.00 + 16% das vendas
+    Menor que R$ 100.000.00 e maior ou igual a R$ 80.000.00     |   R$ 650.00 + 14% das vendas
+    Menor que R$ 80.000.00 e maior ou igual a R$ 60.000.00      |   R$ 600.00 + 14% das vendas
+    Menor que R$ 60.000.00 e maior ou igual a R$ 40.000.00      |   R$ 550.00 + 14% das vendas
+    Menor que R$ 40.000.00 e maior ou igual a R$ 20.000.00      |   R$ 500.00 + 14% das vendas
+    Menor que R$ 20.000.00                                      |   R$ 400.00 + 14% das vendas
 
-.38.
+.37. As tarifas de certo parque de estacionamentos são as seguintes:
 
-.39.
+    * 1ª e 2ª hora - R$ 1,00 cada
+    * 3ª e 4ª hora - R$ 1,40 cada
+    * 5ª hora e seguintes- R$ 2,00 cada
 
-.40.
+O número de horas a pagar é sempre inteiro e arredondado por excesso. Deste modo, quem
+estacionar durante 61 minutos pagará por duas horas, que é o mesmo que pagaria se tivesse
+permanecido 120 minutos. Os momentos de chegada ao parque e partidas destes são apresentados
+na forma de pares de inteiros, representado horas e minutos.
+Por exemplo, o par 12 50 representara 'Dez para uma da tarde'. Pretende-se criar um programa
+que, lidos pelo teclado os momentos de chegada e de partida, escreva na tela o preço cobrado pelo
+estacionamento. Admite-se que a chegada e a partida se dão com intervalo não superior
+a 24 horas. Portanto, se uma dada hora de chegada for superior à da partida, isso não é uma
+situação de erro, antes significará que a partida ocorreu no dia seguinte ao da chegada.
 
-.41.
+.38. Leia uma data de nascimento de uma pessoa fornecida através de três números inteiros: 
+Dia, mês e ano. Teste a validade desta data para saber se está é uma data válida. Teste se
+o dia fornecido é um dia válido: dia > 0, dia <= 28 para o mês de fevereiro (29 se o ano for
+bissexto), dia <= 30 em abril, junho,setembro e novembro, dia <= 31 nos outros meses. Teste
+a validade do mês: mês > 0 e mês < 13. Teste a validade a validade do ano: ano <=  ano atual
+(use uma constante definida com o valor igual a 2008). imprimir: 'Data válida' ou 'data inválida'
+no final da execução do programa.
+
+.39. Uma empresa decide dar um aumento aos seus funcionários de acordo com uma tabela que considera
+o salário atual e o tempo de serviço de cada funcionário. Os funcionários com menor salário terão um
+aumento proporcionalmente maior do que os funcionários com um salário maior, e conforme o tempo de
+serviço na empresa, cada funcionário irá receber um bonus adicional de salário. Faça um programa
+que leia:
+    - O valor do salário atual do fundionário;
+    - O tempo de serviço desse funcionário na empresa (número de anos de trabalho na empresa).
+Use as tabelas abaixo para calcular o salário reajustado deste funcionário e imprima o valor do
+salário final reajustado, ou uma mensagem caso o funcionário não tenha direito a nenhum aumento.
+
+    -  Salário  Atual       | Reajuste(%)       |  Tempo de Serviço     |  Bônus
+    Até 500,00              |  25%              |  Abaixo de 1 ano      |  Sem Bônus
+    Até 1000,00             |  20%              |  De 1 a 3 anos        |  100,00
+    Até 1500,00             |  15%              |  De 4 a 6 anos        |  200,00
+    Até 2000,00             |  10%              |  De 7 a 10 anos       |  300,00
+    Acima de 2000,00        |  Sem Reajuste     |  Mais de 10 anos      |  500,00
+    
+
+
+.40. O custo ao consumidor de um carro novo é a soma do custo de fábrica, da comissão
+do distribuidor, e dos impostos. A comissão e os impostos são calculados sobre o custo
+de fábrica, de acordo com a tabela abaixo. Leia o custo de fábrica e escreva o custo ao
+consumidor.
+
+    - Custo de Fábrica                  |  % do Distribuidor    |  % dos Impostos
+      Até R$ 12.000,00                  |       5               |  isento
+      Entre R$ 12.000,00 e 25.000,00    |       10              |   15
+      Acima de R$ 25.000,00             |       15              |  20
+
+.41. Faça um algoritmo que calcule o IMC de uma pessoa e mostre sua classificação de acordo
+com a tabela abaixo.
+    
+    - IMC          | Classificação
+    -------------|-------------
+    < 18,5       | Abaixo do peso
+    18.6 - 24.9  | Saudável
+    25.0 - 29.9  | Peso em excesso
+    30.0 - 34.9  | Obesidade grau I
+    35.0 - 39.9  | Obesidade grau II (severa)
+    >= 40.0      | Obesidade grau III (mórbida)
 
 
 
