@@ -15,3 +15,5 @@
     a 24 horas. Portanto, se uma dada hora de chegada for superior à da partida, isso não é uma
     situação de erro, antes significará que a partida ocorreu no dia seguinte ao da chegada.
 """
+tarifas = 0
+

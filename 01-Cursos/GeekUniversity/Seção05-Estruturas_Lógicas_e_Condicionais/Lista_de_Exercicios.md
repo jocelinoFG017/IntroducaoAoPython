@@ -281,7 +281,7 @@ consumidor.
 .41. Faça um algoritmo que calcule o IMC de uma pessoa e mostre sua classificação de acordo
 com a tabela abaixo.
     
-    - IMC          | Classificação
+    - IMC        | Classificação
     -------------|-------------
     < 18,5       | Abaixo do peso
     18.6 - 24.9  | Saudável
