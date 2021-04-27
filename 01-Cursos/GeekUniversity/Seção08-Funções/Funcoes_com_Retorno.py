@@ -24,4 +24,5 @@ print(f'Retorno = {ret}')
 print(f'Retorno = {quadrado_de_sete()}')
 
 """
-#
+
+# amsdkal
