@@ -9,7 +9,7 @@ from random import randrange
 pontos = 0
 
 k = 0
-for k in range (1,6):
+for k in range(1, 6):
     a = randrange(0, 101)
     b = randrange(0, 101)
 
@@ -23,4 +23,4 @@ for k in range (1,6):
     else:
         print("Errado")
 
-print("Total de acertos = ",pontos)
+print("Total de acertos = ", pontos)

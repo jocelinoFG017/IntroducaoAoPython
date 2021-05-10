@@ -18,10 +18,3 @@ elif 8 <= consumo < 14:
     print("Econômico")
 else:
     print("Super Econômico")
-
-
-
-
-
-
-

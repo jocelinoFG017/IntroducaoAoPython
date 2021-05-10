@@ -45,7 +45,3 @@ elif cod == 106:
     print(f"{qtd} Refrigerante")
     total = qtd * 1.00
     print(f" total {total}")
-
-
-
-

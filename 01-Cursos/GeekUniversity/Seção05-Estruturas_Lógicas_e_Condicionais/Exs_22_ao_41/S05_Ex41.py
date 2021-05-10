@@ -20,7 +20,7 @@ print('IMC = {:.2f}'.format(imc))
 
 if imc < 18.5:
     print('Abaixo do peso')
-elif imc >= 18.6 and imc <= 24.9:
+elif (imc >= 18.6) and (imc <= 24.9):
     print('Saúdavel')
 elif (imc >= 25.0) and (imc <= 29.9):
     print('Peso em excesso')

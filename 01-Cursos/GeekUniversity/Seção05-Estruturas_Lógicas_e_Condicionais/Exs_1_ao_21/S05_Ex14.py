@@ -15,7 +15,7 @@ tLab = nota1 * 2
 tSemestral = nota2 * 3
 eFinal = nota3 * 5
 
-media  = (tLab + tSemestral + eFinal)/(2+3+5)
+media = (tLab + tSemestral + eFinal)/(2+3+5)
 if (media >= 0.0) and (media <= 2.9):
     print("Media = {:.2f}".format(media))
     print("Reprovado")

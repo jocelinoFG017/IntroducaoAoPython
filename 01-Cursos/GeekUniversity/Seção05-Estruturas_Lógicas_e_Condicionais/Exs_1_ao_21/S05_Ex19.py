@@ -12,5 +12,4 @@ else:
         print("Divisível por 3")
     if n % 5 == 0:
         print("Divisível por 5")
-
-#print("Divisível por 3 e 5")
+# print("Divisível por 3 e 5")

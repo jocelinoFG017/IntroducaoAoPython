@@ -5,7 +5,7 @@ n1 = int(input("Informe o n1: "))
 n2 = int(input("Informe o n2: "))
 n3 = int(input("Informe o n3: "))
 
-print(" n1 = {} \n n2 = {} \n n3 = {}".format(n1,n2,n3))
+print(" n1 = {} \n n2 = {} \n n3 = {}".format(n1, n2, n3))
 print("Ordem Crescente")
 
 if n1 > n2 and n1 > n3:
@@ -25,5 +25,3 @@ elif n3 > n1 and n3 > n2:
         print("{} {} {}".format(n1, n2, n3))
 else:
     print("Números iguais")
-
-

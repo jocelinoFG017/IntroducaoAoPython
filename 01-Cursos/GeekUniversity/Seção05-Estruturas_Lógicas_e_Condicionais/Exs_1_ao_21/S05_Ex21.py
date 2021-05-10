@@ -20,7 +20,7 @@ if (op > 0) and (op < 5):
     n1 = int(input("1º Número: "))
     n2 = int(input("2º Número: "))
     if op == 1:
-        print("{} + {} = {}".format(n1,n2,n1+n2))
+        print("{} + {} = {}".format(n1, n2, n1+n2))
     elif op == 2:
         if n1 > n2:
             print("{} - {} = {}".format(n1, n2, n1 - n2))
@@ -29,7 +29,7 @@ if (op > 0) and (op < 5):
     elif op == 3:
         print("{} * {} = {}".format(n1, n2, n1 * n2))
     else:
-        #numerador = n1
+        # numerador = n1
         denominador = n2
         if denominador == 0:
             print("O denominador(n2) não pode ser zero")

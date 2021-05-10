@@ -21,5 +21,5 @@ for numero in range(1,11):
 Forma 03:
 range(valor_de_inicio,valor_de_parada,passo)
 """
-for numero in range(1,11):
+for numero in range(1, 11):
     print(numero)

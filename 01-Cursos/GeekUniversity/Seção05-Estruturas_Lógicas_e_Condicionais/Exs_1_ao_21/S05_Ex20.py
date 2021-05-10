@@ -19,6 +19,5 @@ if a == c and a == b and b == c:
     print("Triângulo Equilátero.")
 elif (a != b) and (a != c) and (b != c):
     print("Triângulo Escaleno.")
-else:# (a == b) or (a == c) or (b == c):
+else:  # (a == b) or (a == c) or (b == c):
     print("Triângulo Isósceles.")
-

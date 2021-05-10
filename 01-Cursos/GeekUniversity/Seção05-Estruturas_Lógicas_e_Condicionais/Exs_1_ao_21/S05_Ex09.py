@@ -7,7 +7,7 @@ salario = float(input("salario R$: "))
 prestacaoE = float(input("Prestação Empréstimo R$: "))
 
 calcula = (salario*20)/100
-#print(f"20% do salario = {calcula}")
+# print(f"20% do salario = {calcula}")
 if prestacaoE > calcula:
     print("Empréstimo não concedido.")
 else:

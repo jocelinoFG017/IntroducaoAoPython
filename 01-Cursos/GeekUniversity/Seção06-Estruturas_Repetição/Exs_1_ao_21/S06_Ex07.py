@@ -2,7 +2,6 @@
 .7. Faça um programa que leia 10 inteiros positivos, ignorando não positivos, e
 imprima sua média.
 """
-
 soma = 0
 media = 0
 for i in range(0, 10):

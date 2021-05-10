@@ -7,7 +7,7 @@ se aposentar. As condições para a aposentadoria são:
 """
 idade = int(input("Idade: "))
 tempoS = int(input("Tempo de Serviço: "))
-if tempoS > idade :
+if tempoS > idade:
     print("Dados Inválidos.")
 else:
     if idade >= 65:
@@ -18,4 +18,3 @@ else:
         print("Pode se Aposentar")
     else:
         print("Não Pode se Aposentar")
-

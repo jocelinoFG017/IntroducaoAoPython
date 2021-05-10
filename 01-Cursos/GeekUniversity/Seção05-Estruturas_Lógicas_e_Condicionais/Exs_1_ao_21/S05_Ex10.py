@@ -18,4 +18,3 @@ elif sexo == "M" or sexo == "m":
     print("Seu peso ideal é: {}".format(calcula))
 else:
     print("Dados Inválidos.")
-

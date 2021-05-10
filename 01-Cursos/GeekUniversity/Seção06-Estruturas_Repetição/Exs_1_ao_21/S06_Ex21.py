@@ -3,8 +3,7 @@
 
     - A soma dos números pares desse intervalo de números, incluindo os números digitados;
     - A multiplicação dos números ímpares desse intervalo, incluindo os digitados;
-
-."""
+"""
 n = int(input('Informe um numero: '))
 n2 = int(input('Informe outro numero: '))
 

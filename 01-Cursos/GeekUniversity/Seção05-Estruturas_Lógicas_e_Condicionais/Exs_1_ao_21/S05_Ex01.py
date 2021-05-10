@@ -9,4 +9,4 @@ if n1 > n2:
 elif n1 == n2:
     print("São iguais")
 else:
-    print("{} é maior que {}".format(n2, n1) )
+    print("{} é maior que {}".format(n2, n1))

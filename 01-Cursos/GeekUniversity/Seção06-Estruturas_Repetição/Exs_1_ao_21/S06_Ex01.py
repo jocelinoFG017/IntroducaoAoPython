@@ -7,4 +7,3 @@ for n in range(18):
     if n > 0:
         if n % 3 == 0:
             print(n)
-

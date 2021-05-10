@@ -9,8 +9,6 @@ consumidor.
       Entre R$ 12.000,00 e 25.000,00    |       10              |   15
       Acima de R$ 25.000,00             |       15              |  20
 
-
-
 """
 custo_fabrica = float(input('Informe o custo de fábrica do carro: '))
 
@@ -27,5 +25,3 @@ elif custo_fabrica > 25000:
     comissao_distribuidor = ((custo_fabrica * 15) / 100)
     imposto = ((custo_fabrica * 20) / 100)
     print('Custo do carro novo = R$ {:.2f}'.format(custo_fabrica + comissao_distribuidor + imposto))
-
-
