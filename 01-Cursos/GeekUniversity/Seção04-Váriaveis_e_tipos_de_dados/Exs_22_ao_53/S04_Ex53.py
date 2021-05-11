@@ -9,4 +9,3 @@ preco = float(input("Preço do metro de tela (P): "))
 
 valor = comprimento * largura * preco
 print("Valor a pagar para cercar o terreno(R$): {:.2f}".format(valor))
-

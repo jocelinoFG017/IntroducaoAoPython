@@ -12,6 +12,6 @@ comissao = (desconto*5)/100
 comissao2 = (valor*5)/100
 print("Valor com 10% de desconto: {:.2f}".format(desconto))
 print("Valor de cada parcela(3x sem juros sem desconto): {:.2f}".format(valor/3))
-#print("Valor de cada parcela(3x sem juros com desconto): {:.2f}".format(desconto/3))
+# print("Valor de cada parcela(3x sem juros com desconto): {:.2f}".format(desconto/3))
 print("Comissão do Vendedor venda a vista: {:.2f}".format(comissao))
 print("Comissão do Vendedor venda a parcelada: {:.2f}".format(comissao2))

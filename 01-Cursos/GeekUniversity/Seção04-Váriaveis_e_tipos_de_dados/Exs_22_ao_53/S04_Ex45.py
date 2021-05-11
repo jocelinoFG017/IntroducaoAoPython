@@ -6,6 +6,6 @@ letra = input("Informe uma LETRA maiúscula: ")
 codigo = ord(letra)
 aux = codigo + 32
 convert = chr(aux)
-#print(codigo)
+# print(codigo)
 print(convert)
-#print(letra.lower())
+# print(letra.lower())

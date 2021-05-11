@@ -18,7 +18,7 @@ minutosT = restoT // 60
 minutosD = minutosT-minutos
 
 resto= resto % 60
-restoT = restoT% 60
+restoT = restoT % 60
 
 seg = resto // 1
 segT = restoT // 1

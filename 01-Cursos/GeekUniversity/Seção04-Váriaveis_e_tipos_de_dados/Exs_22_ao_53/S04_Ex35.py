@@ -9,6 +9,6 @@ b = float(input("Valor B: "))
 
 result = ((a*a)+(b*b))
 hip = math.sqrt(result)
-#hip = result ** 0.5
+# hip = result ** 0.5
 
 print("O valor da hipotenusa é {:.2f}".format(hip))

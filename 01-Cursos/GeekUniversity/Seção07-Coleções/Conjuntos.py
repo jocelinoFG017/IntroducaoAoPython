@@ -7,7 +7,7 @@ Conjuntos
 
  Da mesma forma que na matemática:
  - Sets(conjuntos) não possuem valores duplicados
- - Sets(conjuntos) não possuem valore ordenados
+ - Sets(conjuntos) não possuem valores ordenados
  - Elementos não são acessados via indice, ou seja, conjuntos não são indexados
 
  Conjuntos são bons para se utilizar quando precisamos armazenar elementos

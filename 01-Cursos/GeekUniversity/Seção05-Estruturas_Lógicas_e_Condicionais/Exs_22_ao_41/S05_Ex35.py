@@ -13,7 +13,7 @@ if ano > 0:
             dia = int(input("Dia: "))
             if mes == 2:
                 if dia > 29:
-                    print("Dia inválido")
+                    print("Dia inválido.")
         else:
             print('mes inválido tente novamente')
     else:
@@ -21,7 +21,7 @@ if ano > 0:
             dia = int(input("Dia: "))
             if mes == 2:
                 if dia > 28:
-                    print("Dia inválido")
+                    print("Dia inválido. Neste ano fevereiro tem 28 dias")
         else:
             print('mes inválido tente novamente')
 else:
