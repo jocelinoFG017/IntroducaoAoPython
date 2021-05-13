@@ -1,9 +1,4 @@
 """
-.25.Faça um programa que some todos os números naturais abaixo de 1000 que são múltiplos
-de 3 ou 5.
-
-.26. Faça um algoritmo que encontre o primeiro múltiplo de 11, 13 ou 17 após um número dado.
-
 .27. Em matemática, o número harmônico designado por H(n) define-se como sendo a soma da série
 harmônica:
 
