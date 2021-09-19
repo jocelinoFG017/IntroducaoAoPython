@@ -23,6 +23,7 @@ for r in raios:
 print(areas)
 
 # Forma 2 - usando map
+
 # map é uma função que recebe dois parametros : O primeira é a função e o segundo um iterável
 # Retorna um map object
 areas = map(area, raios)
@@ -58,7 +59,8 @@ cidades = [('Berlim', 29), ('Cairo', 36), ('Buenos Aires', 19), ('Los Angeles', 
 print(cidades)
 # f = 9/5 * c + 32
 
-#lambda
+# lambda
+
 c_para_f = lambda dado: (dado[0], (9/5) * dado[1] + 32)
 
 print(list(map(c_para_f, cidades)))

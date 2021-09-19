@@ -1,7 +1,7 @@
 """
 Dictionary Comprehension
 
-Pense no seuinte:
+Pense no seguinte:
 
 Se quisermos criar uma lista fazemos:
 lista  = [1, 2, 3, 4]
@@ -42,6 +42,6 @@ print(mistura)
 """
 # exemplo com lógica condicional
 
-numeros = [1, 2 , 3, 4, 5]
+numeros = [1, 2, 3, 4, 5]
 res = {num: ('par' if num % 2 == 0 else 'impar') for num in numeros}
 print(res)

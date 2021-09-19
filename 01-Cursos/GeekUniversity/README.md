@@ -8,6 +8,10 @@
 
 - Plataforma: Udemy
 
+- Status do Curso: Não Concluído
+  
+- Status dos Exercicios: Concluídos até a seção 05.
+  
 - Foto: 
 
 <img src="../../foto/Geek.jpg" width="150" height="200"> 

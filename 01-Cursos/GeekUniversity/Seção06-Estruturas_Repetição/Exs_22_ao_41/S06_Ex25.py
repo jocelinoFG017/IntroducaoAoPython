@@ -10,5 +10,4 @@ for i in range(1, 1000):
         print(i)
         soma = soma + i
         # 3, 5, 6, 9, 10
-
 print(soma)

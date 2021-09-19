@@ -88,9 +88,9 @@ harmônica:
 .28. Faça um programa que leia um valor N inteiro e positivo, calcule e mostre o valor
     E, conforme mostra a fórmula a seguir:
 
-    - E = 1/1! + 1/2! + 1/3! +.... 1/N!
+    - E = 1 + 1/1! + 1/2! + 1/3! +.... 1/N!
 
-.29. Faça um programa para  calcular o valor da série, para 5 termos.
+.29. Faça um programa para calcular o valor da série, para 5 termos.
 
     - S = 0 + 1/2! + 1/4! + 1/6 +...
 

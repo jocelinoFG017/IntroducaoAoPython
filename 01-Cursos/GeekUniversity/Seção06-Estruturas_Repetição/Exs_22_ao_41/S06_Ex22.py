@@ -22,7 +22,3 @@ while True:
 print(f'Soma das notas = {soma}')
 print(f'notas informadas = {qtd_notas}')
 print(f'media = {media:.2f}')
-
-
-
-
